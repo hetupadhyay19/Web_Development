@@ -1,0 +1,48 @@
+#body{
+    background-color: orange;
+}
+
+.head{
+    color: darkblue;
+}
+#bglime{
+    background-color: lightgreen;
+}
+
+#bglime>span{
+    color: red;
+}
+
+body>section>p:nth-child(1){
+    font-family: cursive;
+}
+
+body>section>p:nth-child(3){
+    color: white;
+}
+
+
+
+#para{
+    color:green;
+    font-family: normal ;
+}
+
+
+
+ol>li:nth-child(2) {
+    color: blue;
+}
+
+ol>li:nth-child(3) {
+    color: red;
+}
+
+ul>li:nth-child(1)>span{
+    color: green;
+    background-color: yellow;
+}
+ul>li:nth-child(2)>span{
+    color: blue;
+    background-color: lightblue;
+}
